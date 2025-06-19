@@ -1,0 +1,42 @@
+@font-face{
+  font-family: 'Avenir';
+  src: url('/Avenir.ttc') format('ttc');
+}
+
+:root {
+  
+  color: rgb(255, 255, 255);
+  background-color: #000000;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-size: 3em;
+  font-family: 'Avenir Black';
+  margin-top: .2em;
+}
+
+p {
+  font-family: 'Avenir Book';
+  font-size: 1.5em;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
